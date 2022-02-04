@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>github</title>
+	<defs>
+		<image  width="16" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAANtQTFRFAAAAeX+Qe4KTeoGSd32Ndn2NdXyMdn2NdXyMdXyMdXyLeX+Qe4KTfIKTcXiHeoCRfYSVfYOUfIOUfYSVfIOUeYCRdXuLd36OfYSVeoGReoGRfYSUeoGReoGReYCRfIOUdn2NfIOUeYCQd36OfIOUeoGSZGp4d36OeoGRbHOBc3qKeX+QeoGSfIOTfYSVeoGSeoCRdHqLcniIeoGSeoGSXGFucnmIfIOUeoCRdn2MfIOUe4KTeYCRe4KSe4KSdXyMeoGSeoGSeX+QeH+PZmx6eoCRcHaGe4KTR0tVcCyPJgAAAEl0Uk5TAKffjisgO0hDKxtYw/Ie3v/4+f70wjE9/aSc+9LBhvUl84lK76UFkIAGEF6Y5vq0fC8JsZwDEed1L/a9lb2kMZWst60yqj2xAXxO7uMAAACTSURBVHicXc7lEsIwEATgxYsfFC1SvLi7O33/J+IaZmja/ZHJfslcAsDj9fkDwZASjkRj8QSAJFEqTURqhheFIUtSckC+IEMR0OROJaDsAAIqbqg6ug7U6jI0+Nlmy+7tDoxurz8YjriMJ9MZn88XyxXWG+unW4js9ofjSbXun3+Ay/V2FwMe+Ocp4GXDW8DH5O0XyuISsz2V0A8AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>
