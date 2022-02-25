@@ -353,7 +353,7 @@
                             <!-- <a href="https://bifarmsnetwork.gitbook.io/bifarms/" target="_blank" class="nav-linkk w-nav-link">About</a> -->
                             <a href="https://bifarmsnetwork-1.gitbook.io/bifarms/" target="_blank"
                                 class="nav-linkk w-nav-link w--current">Docs</a>
-							<a href="https://bifarms.network/team" target="_blank"
+							<a href="./team/index.html" target="_blank"
                                 class="nav-linkk w-nav-link w--current">Team</a>
                             <!-- <a href="./team/index.html" class="nav-linkk w-nav-link w--current">Team</a> -->
                             <a href="https://bifarmsnetwork-1.gitbook.io/bifarms/documentation/pitchdeck"
