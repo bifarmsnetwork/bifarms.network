@@ -631,7 +631,7 @@ textarea.w-input,textarea.w-select{height:auto}
 
 .w-nav-link{position:relative;display:inline-block;vertical-align:top;text-decoration:none;color:#222;padding:20px;text-align:left;margin-left:auto;margin-right:auto}
 
-/* .w-nav-link.w--current:hover{color:#0082f3} */
+.w-nav-link.w--current:hover{color:#0082f3}
 
 .w-nav-menu{position:relative;float:right}
 
