@@ -2,7 +2,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 html {
 	margin:0;
 	min-height: 100vh;
-/* 	background-image: url(https://bitfarms.network/img/bitfarmBg.svg);
+	/* 	background-image: url(https://bitfarms.network/img/bitfarmBg.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover; */
@@ -11,7 +11,6 @@ html {
 	font-size:18px;
 	line-height:1.7;
 	/* overflow: hidden; */
-	/* height: 200vh; */
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
@@ -96,7 +95,7 @@ td,th{padding:0}
 
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 
-body{margin:0;min-height: 100vh;/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://bitfarms.network/img/bitfarmBg.svg); *//* background-position: center; *//* background-repeat: no-repeat; *//* background-size: cover; */font-family:Inter;color: #151925;font-size:18px;line-height:1.7;overflow: hidden;/* height: 200vh; */background: transparent;}
+body{margin:0;min-height: 100vh;/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://bitfarms.network/img/bitfarmBg.svg); *//* background-position: center; *//* background-repeat: no-repeat; *//* background-size: cover; */font-family:Inter;color: #151925;font-size:18px;line-height:1.7;/* overflow: hidden; *//* height: 200vh; */background: transparent;}
 
 @media only screen and (max-width: 600px) {
   body {
@@ -631,7 +630,7 @@ textarea.w-input,textarea.w-select{height:auto}
 
 .w-nav-link{position:relative;display:inline-block;vertical-align:top;text-decoration:none;color:#222;padding:20px;text-align:left;margin-left:auto;margin-right:auto}
 
-/* .w-nav-link.w--current:hover{color:#0082f3} */
+/* .w-nav-link.w--current{color:#0082f3} */
 
 .w-nav-menu{position:relative;float:right}
 
@@ -749,7 +748,7 @@ blockquote{margin:0 0 10px;padding:10px 20px;border-left:5px solid #57586e;font-
 
 .section.hide-overflow.pt-0{padding-top:0}
 
-.section.how-it-works-hero{position:relative;z-index:5;padding-top:100px;padding-bottom: 100px;background-color:transparent;background-image:none;margin-bottom: 0;color:transparent;}
+.section.how-it-works-hero{position:relative;z-index:5;padding-top: 48px;padding-bottom: 100px;background-color:transparent;background-image:none;margin-bottom: 0;color:transparent;}
 
 .section.about-hero{padding-top:100px;padding-bottom:100px}
 
@@ -883,7 +882,7 @@ blockquote{margin:0 0 10px;padding:10px 20px;border-left:5px solid #57586e;font-
 
 .button-menu.hover-effect.mr-20{margin-right:20px}
 
-.icon{width:100%}
+.icon{/* width:100%; */}
 
 .login-buttons{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-left:30px;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}
 
@@ -1387,7 +1386,7 @@ blockquote{margin:0 0 10px;padding:10px 20px;border-left:5px solid #57586e;font-
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 120vh;
+  /* height: 120vh; */
   opacity: 0.94;
   }
   
@@ -1699,6 +1698,7 @@ blockquote{margin:0 0 10px;padding:10px 20px;border-left:5px solid #57586e;font-
   .container-fluid.header-container{padding-left:10px}
   
 }
+
 
 
 .header-navbar{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;background-color:transparent}
@@ -2130,6 +2130,7 @@ blockquote{margin:0 0 10px;padding:10px 20px;border-left:5px solid #57586e;font-
 
   .main-site-logo{height:25px;}
 }
+
 
 .introducing-part{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}
 
@@ -3852,7 +3853,152 @@ animation: none;
 }
 
 
-.fa-github {
-  background: transparent;
-  color: #7d8495;
+/**
+ * Icon
+ */
+
+ .licon {
+  position: fixed;
+  top: -26px;
+  left: -18px;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  
+  margin: 25px 0 25px 25px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 12px;
+  font-family: sans-serif;
 }
+
+@media (min-width: 900px) {
+  .licon{
+    top: 20px;
+    left: 27px;
+}}
+
+
+
+
+
+.licon:nth-child(1) { background: cornflowerblue; }
+.licon:nth-child(2) { background: #142532; }
+.licon:nth-child(3) { background: gray; }
+
+/**
+ * The "shine" element
+ */
+
+.licon:after {
+  
+  animation: shine 5s ease-in-out  infinite;
+  animation-fill-mode: forwards;  
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  z-index: 99;
+  
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+/* Hover state - trigger effect */
+
+
+/* Active state */
+
+.licon:active:after {
+  opacity: 0;
+}
+
+@keyframes shine{
+  10% {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  100% {
+    opacity: 0;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+  }
+}
+
+
+.fa-linkedin{
+  font-size: 35px;
+  vertical-align: middle;
+}
+
+
+
+@media (max-width: 600px) {
+  .licon{
+    width: 1.5rem;
+    height: 2rem;
+  }
+
+  .fa-linkedin{
+    font-size: 20px;
+    vertical-align: super;
+  }
+  
+}
+
+@media (max-width: 583px) {
+  .card_height{
+    height: 17rem;
+}}
+
+
+@media (max-width: 540px) {
+  .card_height{
+    height: 16rem;
+}}
+
+
+@media (max-width: 500px) {
+  .card_height{
+    height: 15rem;
+}}
+
+
+@media (max-width: 470px) {
+  .card_height{
+    height: 14rem;
+}}
+
+
+
+@media (max-width: 435px) {
+  .card_height{
+    height: 13.3rem;
+}}
+
+
+@media (max-width: 380px) {
+  .card_height{
+    height: 12.5rem;
+}}
+
+
