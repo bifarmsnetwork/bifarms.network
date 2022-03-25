@@ -4002,3 +4002,77 @@ animation: none;
 }}
 
 
+
+/* Header/Blog Title */
+.blogheader {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: transparent;
+  color: #fff;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.blogleftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.blogrightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.blogfakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.blogcard {
+   background-color: transparent;
+   padding: 20px;
+   margin-top: 20px;
+   color: #fff;
+}
+
+/* Clear floats after the columns */
+.blogrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.blogfooter {
+  padding: 20px;
+  text-align: center;
+  background: transparent;
+  margin-top: 20px;
+  color: #fff;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .blogleftcolumn, .blogrightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* .bg_s{
+  height: 120vh;
+}
+
+@media (max-width: 800px) {
+  
+  .bg_s{
+    height: auto;
+  }
+  
+} */
