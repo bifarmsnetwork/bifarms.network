@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 38" width="48" height="38">
+	<title>twitter</title>
+	<defs>
+		<image  width="46" height="37" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAlCAMAAAAKoCvGAAAAAXNSR0IB2cksfwAAAHhQTFRFAAAAcHCAdXqNdn2NdX2NdnmMdnyPdHyOdXyOcHiHdHyLdn6OdXqKdX2OdXyOdXyOdXuOdnuOeHiPdnuNdHyOcICPc3yMcHqKdHyNdHuOcHCPc3yOdX2PdHuNdHyPdH2NdXqPdXuOdXyNdXyOdn2PdXyOdXuOdHyOiStyLQAAACh0Uk5TABBgj59Qf+//IEBfMN+/78/fIHC/EFAwgKAQkJ9wf3AwsK/Pj5Dfz3obwJoAAAE+SURBVHiclZTbeoMgEIQRSUSqKNS0NC1NTzbv/4ZVUMNhIXYu/MLmZ5yFTRDKqMAlIeWhyDE3+FhRo6qsTYGR+YkfQLpp6aa2nt7EKZ7rvGsguqKOun56iLleT4uYr1saSkiTaP74GOIkooeGlXyKbhZHnz5VId0J64+3bhw9ReZrmud1RZwNKkW7771teInp/my/enVqHNdRbdHb4iT9tnqiWfOexpGG+oqkLMxqsLFI2uIXyhXfgR8W911RKP1IXSCobu0UODRAn+n5gIS3G8d7cJmfkECDO4BS7M9iJ/Yr24Hw4FbcsffN74X3zRH6zuMywPO9KhQqxw8RPV9WaoMIoyxqNDTIKRoVP/+gCx3/z02/XJhmJXir4znsUGtFODwBgkW2J5U6kU6F1kYSPMJfGLbJx6vHXsc4htEfNDkopRf3XLgAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="1" y="1"/>
+</svg>

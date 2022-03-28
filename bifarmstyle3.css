@@ -941,7 +941,7 @@ blockquote{margin:0 0 10px;padding:10px 20px;border-left:5px solid #57586e;font-
 
 .clients-logos-container.small-top-margin{margin-top: 55px;}
 
-.client-logo{max-width:100%;background-color:transparent;margin-right: 25px;margin-left: 25px;margin-bottom: 57px;}
+
 
 .h1{position:static;margin-top:0;margin-bottom:20px;font-family:Rajdhani,sans-serif;color:#fff;font-size: 52px;font-weight:300;text-transform:uppercase;height: 59px;}
 
@@ -1688,7 +1688,7 @@ blockquote{margin:0 0 10px;padding:10px 20px;border-left:5px solid #57586e;font-
 
 .container-4{margin-top:35px}
 
-.header-section{position:fixed;left:0;top:0;right:0;bottom:auto;z-index:99;width:100%;padding-top:20px;padding-bottom:20px;border-bottom:3px solid hsla(0,0%,94.5%,.2);background-color: #142532;/* opacity: 0.95; */}
+.header-section{position:fixed;left:0;top:0;right:0;bottom:auto;z-index:99;width:100%;padding-top:20px;padding-bottom:20px;border-bottom:3px solid hsla(0,0%,94.5%,.2);background-color: #051725;/* opacity: 0.95; */}
 
 .header-part{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}
 
@@ -2455,7 +2455,7 @@ blockquote,p{font-size:18px}
 
 ul{font-size:16px}
 
-.section{padding:90px 30px}
+.section{/* padding:90px 30px */}
 
 .section.footer{background-color:#0e1118}
 
@@ -2919,7 +2919,7 @@ li{margin-bottom:12px;font-size:16px}
 
 blockquote{padding-left:15px;font-size:16px}
 
-.section{padding:60px 25px}
+.section{/* padding:60px 25px */}
 
 .section.footer{background-color:#0e1118}
 
@@ -3351,7 +3351,7 @@ p{font-size:15px}
 
 li{margin-bottom:10px;font-size:15px}
 
-.section{padding:45px 20px}
+.section{/* padding:45px 20px */}
 
 .section.footer{background-color:#0e1118}
 
@@ -3413,7 +3413,7 @@ li{margin-bottom:10px;font-size:15px}
 
 .clients-logos-container.small-top-margin{margin-top:20px}
 
-.client-logo{max-width: 40%;border-radius:5px;margin-right: 31px;}
+.client-logo{max-width: 40%;border-radius:5px;margin-right: 4px;margin-left: 4px;}
 
 .h1{margin-top:15px;margin-bottom:15px;font-size:37px;height: 90px;}
 
@@ -3844,7 +3844,13 @@ animation: none;
 }
 
 
-
+.client-logo{    
+  max-width: 100%;
+  background-color: transparent;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 57px;
+}
 
 
 
@@ -3869,7 +3875,7 @@ color: #fff;}
   margin-right: 0;
   background: rgba(0, 0, 0, 0.2);
   padding: 20px;
-  border-radius: 107px;
+  border-radius: 18px;
 }
 
 .p_container{
@@ -3887,15 +3893,77 @@ color: #fff;}
 
 }
 
-@media (max-width:378px) {
+@media (max-width: 858px) {
   
 .p_container img{
-  max-width: 90px;
-  
+  max-width: 195px;
   z-index: 99;
 }}
 
 
+@media (max-width: 743px) {
+  
+.p_container img{
+  max-width: 160px;
+  z-index: 99;
+}}
+
+
+
+@media (max-width: 639px) {
+  
+.p_container img{
+  max-width: 127px;
+  z-index: 99;
+}}
+
+
+@media (max-width: 539px) {
+  
+.p_container img{
+  max-width: 97px;
+  z-index: 99;
+}}
+
+
+
+@media (max-width: 439px) {
+  
+.p_container img{
+  max-width: 86px;
+  z-index: 99;
+}}
+
+
+@media (max-width: 359px) {
+  
+.p_container img{
+  max-width: 73px;
+  z-index: 99;
+}}
+
+
+
+
+@media (max-width: 858px) {
+.client-logo{    
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+}
+
+
+
+@media (max-width: 439px) {
+.client-logo{    
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-bottom: 40px;
+}
+
+}
 
 .small-top-margin_p{
 margin-top: 25px;
@@ -3903,4 +3971,55 @@ margin-top: 25px;
 
 
 .p_logo-grid{padding-left:72px; display:-ms-grid;/* display:grid; */width: 100%;/* margin-top: -19px; *//* grid-auto-columns:1fr; *//* grid-column-gap:0px; *//* grid-row-gap:0px; */-ms-grid-columns:1fr 1fr 1fr 1fr 1fr 1fr;/* grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr; */-ms-grid-rows:auto;/* grid-template-rows:auto; */margin: auto;}
+
+@media (min-width: 800px) {
+  
+.mb_p{
+  margin-bottom: 60px;
+}}
+
+
+
+@media (max-width: 799px) {
+  
+.mb_p{
+  margin-bottom: 30px;
+}}
+
+
+
+
+
+
+.h1_p{
+  position: static;
+  margin-top: 0;
+  
+  font-family: Rajdhani,sans-serif;
+  color: #fff;
+  font-weight: 300;
+}
+
+
+@media (min-width: 859px) {
+
+  .h1_p{
+  font-size: 42px;
+  font-weight: 300;
+  text-transform: uppercase;
+  height: 59px;
+}
+}
+
+
+@media (max-width: 858px) {
+
+  .h1_p{
+  font-size: 31px;
+  font-weight: 300;
+  text-transform: uppercase;
+  height: 59px;
+}
+}
+
 
