@@ -170,10 +170,40 @@ i {
 }
 
 
-@media (min-width: 1254px) {
+@media (min-width: 1532px) {
   .profile-box {
-    width: 260px;
-    margin: 16px 20px;
+    width: 280px;
+    margin: 16px 25px;
+
+  }
+    
+}
+
+
+@media (min-width: 1798px) {
+  .profile-box {
+    width: 280px;
+    margin: 16px 30px;
+
+  }
+    
+}
+
+
+@media (min-width: 1854px) {
+  .profile-box {
+    width: 280px;
+    margin: 16px 40px;
+
+  }
+    
+}
+
+
+@media (min-width: 1965px) {
+  .profile-box {
+    width: 200px;
+    margin: 16px 16px;
 
   }
     
