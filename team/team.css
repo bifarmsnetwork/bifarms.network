@@ -31,14 +31,7 @@
 
 
 
-@media (max-width: 480px) {
-  .profile-box {
-    width: 200px;
-    margin: 16px 16px;
 
-  }
-  
-}
 
 
 
@@ -49,8 +42,8 @@
 }
 
 .img_profile {
-  width: 100px;
-  height: 100px;
+  width: 60%;
+  height: 60%;
   border-radius: 50%;
   box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
 }
@@ -148,4 +141,40 @@ i {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+}
+
+
+
+@media (max-width: 480px) {
+  .profile-box {
+    width: 158px;
+    margin: 16px 1px;
+
+  }
+  .img_profile {
+    width: 50%;
+    height: 50%;
+    
+}
+  
+}
+
+
+@media (min-width: 1254px) {
+  .profile-box {
+    width: 250px;
+    margin: 16px 16px;
+
+  }
+    
+}
+
+
+@media (min-width: 1254px) {
+  .profile-box {
+    width: 260px;
+    margin: 16px 20px;
+
+  }
+    
 }
